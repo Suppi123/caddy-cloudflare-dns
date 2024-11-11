@@ -1,0 +1,6 @@
+your.domain.org {
+        tls {
+                dns cloudflare <api-token>
+        }
+        reverse_proxy example:8080
+}
